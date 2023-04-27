@@ -4,6 +4,7 @@ import { Stack, Box } from "@mui/material";
 import { ChannelCard, VideoCard, Loader } from "./";
 
 const Videos = ({ videos, direction }) => {
+  console.log(videos);
   return (
     <Stack
       direction={direction || "row"}
